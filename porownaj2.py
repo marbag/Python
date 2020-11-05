@@ -42,18 +42,18 @@ for pracownik in czerwiec:
                 #print(pracownik,k,str(adresy[pracownik]))
                 ws.cell(row=i,column=1).value = pracownik
                 ws.cell(row=i,column=2).value = k
-                #ws.cell(row=i,column=3).value = str(adresy[pracownik][0])
-                #ws.cell(row=i,column=4).value = str(adresy[pracownik][1])
-                #ws.cell(row=i,column=5).value = str(adresy[pracownik][2])
+                ws.cell(row=i,column=3).value = str(adresy[pracownik][0])
+                ws.cell(row=i,column=4).value = str(adresy[pracownik][1])
+                ws.cell(row=i,column=5).value = str(adresy[pracownik][2])
                 i=i+1
     else:
         for k in czerwiec[pracownik]:
-                #print(pracownik,k,str(adresy[pracownik]))
+                print(pracownik,k,str(adresy[pracownik]))
                 ws.cell(row=i,column=1).value = pracownik
                 ws.cell(row=i,column=2).value = k
-               # ws.cell(row=i,column=3).value = str(adresy[pracownik][0])
-                #ws.cell(row=i,column=4).value = str(adresy[pracownik][1])
-                #ws.cell(row=i,column=5).value = str(adresy[pracownik][2])
+                ws.cell(row=i,column=3).value = str(adresy[pracownik][0])
+                ws.cell(row=i,column=4).value = str(adresy[pracownik][1])
+                ws.cell(row=i,column=5).value = str(adresy[pracownik][2])
                 i=i+1
 
 
